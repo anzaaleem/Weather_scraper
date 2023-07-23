@@ -64,7 +64,9 @@ $weather=$secondPageArray[0];
 echo '<div class="alert alert-success" role="alert">'.$weather.'</div>';
         }
        
-        
+        else($error){
+            echo  '<div class="alert alert-danger" role="alert">'.$error.'</div>';
+        } 
         ?>
        </div>
 </div>
